@@ -7,7 +7,7 @@
     <!-- Font Awesome CDN -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
 
-    <title>Landing Page</title>
+    <title>Ravens</title>
     <style>
       body {
         padding-top: 56px;
@@ -19,7 +19,7 @@
         position: relative;
         background-image: url(images/banner1.jpg);
         background-color: #fafbfc;
-        height: 600px;
+        height: 100vh;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -99,7 +99,7 @@
     <!-- Nabar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
       <div class="container">
-        <a href="index.html" class="navbar-brand"><img src="images/LOGO.png" alt="" height="50" /></a>
+        <a href="index.html" class="navbar-brand"><img src="images/logorc.png" alt="" height="30" /></a>
         <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle Navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -121,18 +121,57 @@
             <li class="nav-item">
               <a href="#contact" class="nav-link text-white">Contact</a>
             </li>
+            <li class="nav-item">
+            <a href="#" class="btn button-primer btn-lg mx-2" role="button">Login</a>
+            </li>
+            <li class="nav-item">
+            <a href="#" class="btn button-primer btn-lg" role="button">Sign Up</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- header -->
+    <!-- header jumbotrpn -->
     <section class="jumbotron jumbotron-fluid background-header">
       <div class="container-fluid text-center">
-        <h1 class="display-3" style="color: aliceblue">Solusi Terbaik Belajarmu</h1>
-        <p class="lead" style="font-weight: bold; color: #fff">Kami menyediakan banyak modul yang kamu butuhkan untuk belajar pemrograman, dari tingkat dasar hingga mahir.</p>
+        <h1 class="display-3" style="color: aliceblue">Belajar Coding Lebih Mudah Bersama Kami</h1>
+        <p class="lead" style="font-weight: semi-bold; color: #fff">Kami menyediakan banyak modul yang kamu butuhkan untuk belajar pemrograman, dari tingkat dasar hingga mahir\n dada .</p>
         <a href="#" class="btn button-primer btn-lg" role="button">Gabung Sekarang</a>
-        <a href="#" class="btn btn-secondary btn-lg" role="button">Pelajari dulu</a>
+        <!-- <a href="#" class="btn btn-secondary btn-lg" role="button">Pelajari dulu</a> -->
+      </div>
+    </section>
+
+    
+
+    <!-- product -->
+    <section id="product" class="container mt-5">
+      <div class="row">
+        <div class="col-12 pb-4 text-center">
+          <h2 class="display-4 mb-5" style="margin-top: 5rem !important">Our Most Popular Course</h2>
+        </div>
+        <!-- card -->
+        <div class="col-sm-3 mb-4">
+          <div class="card">
+            <img src="images/card1.png" alt="Produk1" class="card-img-top" style="max-height: 400px" />
+            <div class="card-body" style="min-height: 50px">
+              <span class="bintang">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              </span>
+              <h4 class="card-title">Making Temperature</h4>
+              <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, maxime. Totam id, tenetur iure repudiandae quisquam autem quaerat tempore quis?</p>
+            </div> -->
+            <div class="card-footer">
+              <!-- <a href="#" class="btn button-sekunder">Detail & Harga</a> -->
+            </div>
+          </div>
+        </div>
+ 
+
       </div>
     </section>
 
@@ -179,54 +218,6 @@
       <div class="row mt-5">
         <div class="col text-center">
           <a href="#" class="btn button-sekunder">Service</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- product -->
-    <section id="product" class="container mt-5">
-      <div class="row text-center">
-        <div class="col-12 pb-4">
-          <h2 class="display-4 text-center mb-5" style="margin-top: 5rem !important">Produk Kami</h2>
-        </div>
-        <!-- card -->
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="images/card1.png" alt="Produk1" class="card-img-top" style="max-height: 400px" />
-            <div class="card-body" style="min-height: 250px">
-              <h4 class="card-title">Making Temperature</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, maxime. Totam id, tenetur iure repudiandae quisquam autem quaerat tempore quis?</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn button-sekunder">Detail & Harga</a>
-            </div>
-          </div>
-        </div>
-        <!-- card -->
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="images/card2.png" alt="Produk2" class="card-img-top" style="max-height: 400px" />
-            <div class="card-body" style="min-height: 250px">
-              <h4 class="card-title">Password Generator</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, maxime. Totam id, tenetur iure repudiandae quisquam autem quaerat tempore quis?</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn button-sekunder">Detail & Harga</a>
-            </div>
-          </div>
-        </div>
-        <!-- card -->
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="images/card3.png" alt="Produk3" class="card-img-top" style="max-height: 400px" />
-            <div class="card-body" style="min-height: 250px">
-              <h4 class="card-title">Game Pingsut</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, maxime. Totam id, tenetur iure repudiandae quisquam autem quaerat tempore quis?</p>
-            </div>
-            <div class="card-footer">
-              <a href="#" class="btn button-sekunder">Detail & Harga</a>
-            </div>
-          </div>
         </div>
       </div>
     </section>

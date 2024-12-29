@@ -1,0 +1,41 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    background-color: #ffffff;
+}
+
+.bg-holder {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+}
+
+.divider-content-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: aqua;
+
+}
+
+.forgot-pass {
+    text-decoration: none;
+    font-weight: 500;
+}
+.forgot-pass :hover{
+    text-decoration: underline;
+}
